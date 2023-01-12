@@ -1,5 +1,4 @@
 @media screen and (max-width: 736px) {
-
     ul.actions:not(.fixed) {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
@@ -8,7 +7,6 @@
         margin-left: 0;
         width: 100% !important;
     }
-
         ul.actions:not(.fixed) li {
             -moz-flex-grow: 1;
             -webkit-flex-grow: 1;
@@ -26,7 +24,6 @@
             ul.actions:not(.fixed) li > * {
                 width: 100%;
             }
-
             ul.actions:not(.fixed) li:first-child {
                 padding-top: 0;
             }
@@ -2557,7 +2554,6 @@
 			font-size: 1em;
 		}
 
-
 		header p {
 			font-size: 0.8em;
 		}
@@ -2582,12 +2578,10 @@
 				display: none;
 			}
 
-
 		.box {
 			padding: 2em;
 			margin-bottom: 2em;
 		}
-
 
 		.feature {
 			background: #ffffff;
@@ -2625,9 +2619,7 @@
 			#header:before {
 				height: calc(100% - 20px);
 			}
-
 			
-
 			#header .logo {
 				font-size: 1.5em;
 			}
@@ -2683,7 +2675,6 @@
 			font-size: 1.25em;
 		}
 
-
 		#header {
 			padding: 8em 0 16em 0;
 		}
@@ -2699,9 +2690,7 @@
 
 }
 
-
 @media screen and (max-width: 1280px) {
-
 
 		body, input, select, textarea {
 			font-size: 13pt;
@@ -2735,20 +2724,15 @@
 			padding: 2.5em;
 			margin-bottom: 4em;
 		}
-
-
-
 			.feature .content {
 				padding: 2.5em;
 			}
-
 
 		#header {
 			background-attachment: scroll,							scroll,							scroll;
 			background-size: 1600px 230px,					auto,							cover;
 			padding: 6em 0 12em 0;
 		}
-
 			#header:before {
 				height: calc(100% - 25px);
 			}

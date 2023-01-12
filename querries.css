@@ -1846,24 +1846,24 @@
 		height: 20em;
 	}
 
-		.feature:after {
-			clear: both;
-			content: '';
-			display: block;
+		.feature h2 {
+			font-size: 1.5em;
+			font-weight: 700;
+			letter-spacing: 0.125em;
+			line-height: 1.75em;
+			margin: 0 0 1em 0;
+			text-transform: uppercase;
 		}
-
 		.feature h3, .feature h4, .feature h5, .feature h6 {
 			text-align: inherit;
 		}
 
 		.feature .image {
-			display: inline-block;
 			height: 100%;
 			overflow: hidden;
 			position: relative;
 			width: 50%;
 		}
-
 			.feature .image img {
 				display: block;
 				min-height: 100%;
@@ -2184,7 +2184,6 @@
 
 		}
 
-/* Row */
 
 	.row {
 		display: flex;
@@ -2197,9 +2196,7 @@
 			box-sizing: border-box;
 		}
 
-		.row.gtr-uniform > * > :last-child {
-			margin-bottom: 0;
-		}
+		
 
 		.row.aln-left {
 			justify-content: flex-start;
@@ -2620,7 +2617,6 @@
 				width: 100%;
 			}
 
-
 		#header {
 			background-size: 1280px 184px,						auto,							cover;
 			padding: 3em 0 7em 0;
@@ -2630,9 +2626,7 @@
 				height: calc(100% - 20px);
 			}
 
-			#header:after {
-				height: 20px;
-			}
+			
 
 			#header .logo {
 				font-size: 1.5em;
@@ -2743,9 +2737,6 @@
 		}
 
 
-		.feature {
-			height: 18em;
-		}
 
 			.feature .content {
 				padding: 2.5em;
@@ -2889,6 +2880,14 @@ h1 {
 	}
 }
 }
-
+@media screen and (max-width: 520px){
+   box{
+		width: 100%;
+	
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   }
+  }
 
 

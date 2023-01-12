@@ -117,7 +117,7 @@ footer, header, nav, section {
 		text-align: center;
 	}
 
-		#header:before, #header:after {
+		#header:before{
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
 			left: 50%;
@@ -132,15 +132,6 @@ footer, header, nav, section {
 			top: 0;
 		}
 
-		#header:after {
-			bottom: 0;
-			height: 50px;
-		}
-
-		#header a {
-			border-bottom-color: rgba(255, 255, 255, 0.35);
-			color: rgba(255, 255, 255, 0.8);
-		}
 
 			#header a:hover {
 				border-bottom-color: transparent;
@@ -176,17 +167,10 @@ footer, header, nav, section {
 			text-align: center;
 			width: 2.35em;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
-
 		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
 		}
-
 		#header p {
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -203,11 +187,10 @@ footer, header, nav, section {
 		background-size: 3200px 460px;
 		color: rgba(255, 255, 255, 0.8);
 		/*
-				Since the SVG background occupies a lot of vertical space, we'll
-				add additional top padding (to move our content out of its way)
+				SVG background occupies a lot of vertical space, so we
+				add additional top padding (to move content out of its way)
 				and a negative margin (to move everything up a bit).
 			*/
-
 		margin-top: -260px;
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
@@ -257,7 +240,6 @@ footer, header, nav, section {
 				background: rgba(224, 224, 224, 0.15);
 				color: #ffffff;
 			}
-
 		#footer input[type="text"]:focus,
 		#footer input[type="password"]:focus,
 		#footer input[type="email"]:focus,
@@ -303,11 +285,12 @@ footer, header, nav, section {
 
 
 	#main {
-		padding: 6em 0 5em 0;
 		position: relative;
-		z-index: 1;
+		z-index: 1000;
+		display: flex;
+       flex-wrap: wrap;
+      justify-content: space-around;
 	}
-
 		#main:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';

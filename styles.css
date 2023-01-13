@@ -42,13 +42,16 @@ footer, header, nav, section {
 	}
 	
 
-	a {
+	.html5{
 		
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		text-decoration: dotted;
+		color: #ffffff;
 	}
-		a:hover {
+		.html5:hover {
 			border-bottom-color: transparent;
+		    color: #4eb980;
+
 		}
 	h1, h2, h3, h4, h5, h6 {
 		color: #5b5b5b;

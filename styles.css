@@ -105,10 +105,6 @@ footer, header, nav, section {
 			width: 38.25em;
 		}
 
-		
-	
-/* Header */
-
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		background-position: bottom center,					top left,				center center;
@@ -179,7 +175,6 @@ footer, header, nav, section {
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
-
 
 	#footer {
 		background-attachment: scroll;
